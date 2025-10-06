@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 
-pdf_path = r'books\Building Machine Learning Systems with Python - Second Edition.pdf'
+pdf_path = r'07langchain-document-loaders\books\Building Machine Learning Systems with Python - Second Edition.pdf'
 
 loader = PyPDFLoader(pdf_path)
 
